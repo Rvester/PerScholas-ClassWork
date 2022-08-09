@@ -1,0 +1,262 @@
+
+
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ cd death_star
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ cp storm_tropper.txt copy.txt
+cp: cannot stat 'storm_tropper.txt': No such file or directory
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ cp storm_trooper.txt
+cp: missing destination file operand after 'storm_trooper.txt'
+Try 'cp --help' for more information.
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+
+
+
+
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ cd ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ cp death_star/storm_trooper.txt tatooine
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ start .
+find: ‘/I’: No such file or directory
+find: ‘/N’: No such file or directory
+find: ‘SoundMixer.exe’: No such file or directory
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ cd tatooine
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/tatooine (main)
+$ mv luke.txt millenium_falcon
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/tatooine (main)
+$ mv obi_wan.txt millenium_falcon
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/tatooine (main)
+$ mv millenium_flacon ~
+mv: cannot stat 'millenium_flacon': No such file or directory
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/tatooine (main)
+$ mv millenium_falcon/ ~
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/tatooine (main)
+$ cd ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ cd death_star
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ mv ~/millenium_falcon/ .
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ ls
+darth_vader.txt  millenium_falcon/  princess_leia.txt  storm_trooper.txt
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ mv princess_leia.txt millenium_falcon/
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ start .
+find: ‘/I’: No such file or directory
+find: ‘/N’: No such file or directory
+find: ‘SoundMixer.exe’: No such file or directory
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ cd millenium_falcon
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star/millenium_falcon (main)
+$ rm obi_wan.txt
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star/millenium_falcon (main)
+$ cd ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ mkdir yavin_4
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ mv yavin_4/ ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ mv mellenium_falcon/ ..
+mv: cannot stat 'mellenium_falcon/': No such file or directory
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ mv mellenium_falcon/ ..
+mv: cannot stat 'mellenium_falcon/': No such file or directory
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ mv millenium_falcon/ ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ mv millenium_falcon/ yavin_4/
+mv: cannot stat 'millenium_falcon/': No such file or directory
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ cd ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ mv millenium_falcon/ yavin_4/
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ cd yavin_4
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/yavin_4 (main)
+$ mkdir x_wing
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/yavin_4 (main)
+$ mv millenium_falcon/ ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/yavin_4 (main)
+$ mv x-wing/ ..
+mv: cannot stat 'x-wing/': No such file or directory
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/yavin_4 (main)
+$ mv x_wing/ ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/yavin_4 (main)
+$ cd ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ cd death_star
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ cd ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ cd millenium_falcon
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/millenium_falcon (main)
+$ mv pricness_leia.txt ..
+mv: cannot stat 'pricness_leia.txt': No such file or directory
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/millenium_falcon (main)
+$ mv princess_leia.txt ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/millenium_falcon (main)
+$ mv luke.txt ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/millenium_falcon (main)
+$ cd ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ mv luke.txt yavin_4/
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ mv princess.leia.txt yavin_4/
+mv: cannot stat 'princess.leia.txt': No such file or directory
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ mv princess_leia.txt yavin_4/
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ cd yavin_4
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/yavin_4 (main)
+$ mv luke.txt ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/yavin_4 (main)
+$ cd ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ mv luke.txt x_wing/
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ cd death_star
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ mkdir tie_fighter_1
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ makdir tie_fighter_2
+bash: makdir: command not found
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ mkdir tie_fighter_2
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ mkdir tie_fighter 3
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ cd tie_fighter_1
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star/tie_fighter_1 (main)
+$ darth_vader.txt
+bash: darth_vader.txt: command not found
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star/tie_fighter_1 (main)
+$ touch darth_vader.txt
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star/tie_fighter_1 (main)
+$ cd ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ cp storm_trooper.txt tie_fighter_1/
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ cp storm_trooper.txt tie_fighter_2/
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ cp storm_trooper.txt tie_fighter_3/
+cp: cannot create regular file 'tie_fighter_3/': Not a directory
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ mkdir tie_fighter_3
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ cp storm_trooper.txt tie_fighter_3/
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ mv tie_fighter_1/ ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ mv tie_fighter_2/ ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ mv tie_fighter_3/ ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/death_star (main)
+$ cd ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ rm tie_fighter_2/
+rm: cannot remove 'tie_fighter_2/': Is a directory
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ rm tie_fighter_2
+rm: cannot remove 'tie_fighter_2': Is a directory
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ rm -r tie_fighter_2
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ rm -r tie_fighter_3
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ cd x_wing
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/x_wing (main)
+$ touch the_force.txt
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/x_wing (main)
+$ rm -r death_star
+rm: cannot remove 'death_star': No such file or directory
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away/x_wing (main)
+$ cd ..
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ rm -r death_star
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ mv x_wing/ millenium_falcon/
+
+bulle@DESKTOP-MJVO76I MINGW64 ~/Desktop/Per Scholas/Class Work/galaxy-far-far-away (main)
+$ mv yavin_4/ millenium_falcon/
