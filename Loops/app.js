@@ -55,14 +55,14 @@ for (let j=1; j < 8; j++) {
 for(let number=2 ; number<=20; number++){
     let Prime = true;
 
-    for (let i=2; i<= number-1;i++){
-    if(number%i===0){
+        for (let i=2; i<= number-1;i++){
+        if(number%i===0){
         Prime = false;
         
     }
 }
-    if (Prime) console.log(number);
-    if (Prime) console.log("prime");
+        if (Prime) console.log(number);
+        if (Prime) console.log("prime");
 
 
 
@@ -98,8 +98,61 @@ while (z< 20){
         console.log(z*3);
 
     }
-    z++
+    z++;
 }
+
+
+let number=2
+while(number<=20) {
+    let Prime = true;
+
+    for (let i=2; i<= number-1;i++) {
+        if(number%i===0) {
+            Prime = false;
+    
+        }             
+
+    }
+      if (Prime) console.log(number);
+      number++;
+    
+
+}
+
+let cash= 10
+let coins = 0
+    while(cash >4){
+        console.log((coins +=4));
+        cash--;
+
+    }
+
+
+let num =10;
+while(num <= 100){
+    console.log(num)
+    num +=20; 
+    if(num===90){
+        console.log(num)
+        num=20;
+
+    }
+}
+
+
+for (let i=1; i <= 5; i++){ 
+    let str= ''
+    for (let j=1; j <= i; j++){
+        str += j
+
+        
+    }
+    console.log(str)
+}
+
+
+
+
 
 
 
