@@ -52,17 +52,17 @@ for (let j=1; j < 8; j++) {
   }
 
 
-  for(let number=2 ; number<=20; number++){
+for(let number=2 ; number<=20; number++){
     let Prime = true;
 
-for (let i=2; i<= number-1;i++){
+    for (let i=2; i<= number-1;i++){
     if(number%i===0){
         Prime = false;
         
     }
 }
-if (Prime) console.log(number);
-if (Prime) console.log("prime");
+    if (Prime) console.log(number);
+    if (Prime) console.log("prime");
 
 
 
@@ -84,6 +84,25 @@ while(m <35){
     }
     m++;
 }
+
+let p= 0
+while(p < 100){
+     if(p%5==0)
+     console.log(p);
+     p++;
+}
+
+let z = 0;
+while (z< 20){
+    if (z%2==0){
+        console.log(z*3);
+
+    }
+    z++
+}
+
+
+
     
 
     
