@@ -35,55 +35,55 @@
 
 //rest parameters
 
-//function add(...numbers){
-    //console.log(numbers);
+function add(...numbers){
+    console.log(numbers);
     //another way to write an array    
-    //for(let i=0; i < numbers.length; i++){
-    //}
-//}
-    //add(4,5,6,10,100,50);
+    for(let i=0; i < numbers.length; i++){
+    }
+}
+    add(4,5,6,10,100,50);
 
-    //function max(a,b) {
-        //if(a > b){
-            //return a;
-        //}
-            //else{
-                //return b;
+    function max(a,b) {
+        if(a > b){
+            return a;
+      }
+            else{
+                return b;
 
-            //}
+            }
           
           
-    //}
-     //console.log(max(30,68))
+    }
+     console.log(max(30,68))
 
 
      
-     //function max3(...numbers){
-        //if ( 12 < 26 < 42){
-            //return 42;
+     function max3(...numbers){
+        if ( 12 < 26 < 42){
+            return 42;
             
-        //}
-        //else{
-            //return "nothing";
-        //}
-    //}
+        }
+        else{
+            return "nothing";
+        }
+    }
     
-    //console.log(max3(12,26,42))
+    console.log(max3(12,26,42))
     
-    //let vowels= ["a", "e", "i", "o", "u","l"]
-        //function letter(...vowels){
-            //if(vowels === letter){
+    let vowels= ["a", "e", "i", "o", "u","l"]
+        function letter(...vowels){
+            if(vowels === letter){
 
-           // return true;
+            return true;
              
                 
 
-            //}
+            }
             
-               // else
-                 // return false;
-       // }
-                //console.log(letter(...vowels))
+                else
+                  return false;
+       }
+                console.log(letter(...vowels))
 
     
     let sumArray= function (arr){
