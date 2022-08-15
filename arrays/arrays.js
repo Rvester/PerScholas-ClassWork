@@ -43,49 +43,84 @@
 //}
     //add(4,5,6,10,100,50);
 
-    function max(a,b) {
-        if(a > b){
-            return a;
-        }
-            else{
-                return b;
+    //function max(a,b) {
+        //if(a > b){
+            //return a;
+        //}
+            //else{
+                //return b;
 
-            }
+            //}
           
           
-    }
-     console.log(max(30,68))
+    //}
+     //console.log(max(30,68))
 
 
-     let numbers =[12,26,42]
-     function max3(...numbers){
-        if ( 12 < 26 < 42){
-            return 42;
+     
+     //function max3(...numbers){
+        //if ( 12 < 26 < 42){
+            //return 42;
             
-        }
-        else{
-            return "nothing";
-        }
-    }
+        //}
+        //else{
+            //return "nothing";
+        //}
+    //}
     
-    console.log(max3(12,26,42))
+    //console.log(max3(12,26,42))
     
-    let vowels= ["a", "e", "i", "o", "u","l"]
-        function letter(...vowels){
-            if(vowels === letter){
+    //let vowels= ["a", "e", "i", "o", "u","l"]
+        //function letter(...vowels){
+            //if(vowels === letter){
 
-            return true;
+           // return true;
              
                 
 
-            }
+            //}
             
-                else
-                  return false;
+               // else
+                 // return false;
+       // }
+                //console.log(letter(...vowels))
+
+    
+    let sumArray= function (arr){
+
+        let sum = 0;
+         for(let i=0; i < arr.length; i++){
+            sum += arr[i];
         }
-                console.log(letter(...vowels))
+            return sum;
+    }
+                
+    console.log(sumArray([12,34,55,46,10,12]))
+
+
+
+    let multiplyArray = function(arr){
+        sum = 1; 
+        for( let i = 0; i < arr.length; i++){
+            sum = sum * arr[i];
+
+        }
+        return sum;
+
+    }
+        console.log(multiplyArray([2,5,6]))
+
+    let numArgs = function(...args){        
+    for(let i=0; i <args.length; i++){
+        
+    }
+        
+    
+    console.log(numArgs([1,2,3,4,5]))
+}
+
                 
 
 
     
-        
+    
