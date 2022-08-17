@@ -115,5 +115,5 @@ function changeReturned(amount) {
 
 }
 
-let outputChange = changeReturned(1000-50.83);
+let outputChange = changeReturned(100-27.83);
 console.log(outputChange);
