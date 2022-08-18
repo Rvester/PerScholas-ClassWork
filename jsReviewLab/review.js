@@ -68,6 +68,22 @@ else {
 
 console.log(sound);
 
+//E 
+let age= 17
+let resp =''
+if (age >= 16 ){
+    resp = "Here are the keys!";
+
+}
+else{
+    return "Sorry, you're too young"
+
+}
+
+console.log(resp);
+
+
+//Loops
 
 
 
