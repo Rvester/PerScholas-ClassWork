@@ -376,3 +376,30 @@ function oldAndLoud(person){
 oldAndLoud(user);
 console.log(user);
 
+//Cat Combinator 
+ cat1 = {
+    name: 'Nel',
+    breed: 'Norwegian House Cat',
+    age: 4
+}
+console.log(cat1.age);
+console.log(cat1.breed);
+
+
+let cat2 = {
+    name: 'Terry',
+    breed: 'Toyger',
+    age: 6
+}
+
+
+function combineCats(mama, papa){
+    let Kitty = {
+        name: mama.name + papa.name,
+        age: 1,
+        breed: mama.breed + '-' + papa.breed
+    }
+    return Kitty;
+}
+console.log(combineCats(cat1, cat2));
+console.log(combineCats(combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2)), combineCats(combineCats(cat1, cat2), combineCats(cat1, cat2))));
