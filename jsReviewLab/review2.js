@@ -101,9 +101,9 @@ for (let i = 0; i < 20; i++){
 //Find the Median
 
 const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
-
-
-
+nums.sort();
+middleIndex = Math.floor(nums.length / 2)
+console.log(nums[middleIndex])
 
 //Return of the Closets
 const kristynsCloset = [
@@ -121,7 +121,7 @@ const thomsCloset = [
     [
         //shirts
         "grey button-up",
-        "dark grey button=up",
+        "dark grey button-up",
         "light blue button-up",
         "blue button-up"
     ], [
@@ -136,4 +136,34 @@ const thomsCloset = [
         "raybans"
     ]
 ];
+
+let kristynsShoe = kristynsCloset.shift()
+thomsCloset[2].push(kristynsShoe)
+
+kristynsCloset.splice(6, 0, 'raybans');
+kristynsCloset[5] = 'stained knit hat';
+thomsCloset[0][0];
+ thomsCloset[0][3];
+ thomsCloset[1][2];
+
+
+
+
+
+
+
+
+//Dirty Laundry
+
+for(let i of kristynsCloset){
+    console.log('WHIRR: Now washing ' + i);
+}
+
+console.log(thomsCloset[0])
+console.log(thomsCloset[1])
+console.log(thomsCloset[2])
+
+for(let i of thomsCloset){
+    console.log(i)
+}
 
