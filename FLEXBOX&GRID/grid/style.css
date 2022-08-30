@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    font-family: Helvetica;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 50px;
+    background-color: #a2cbb6;
+    font-size: 20px;
+    margin: 0px;
+    color: #f3dba8;
+  
+  }
+  
+  div {
+    margin: 13px 10px;
+  }
+  
+  nav > div:last-child {
+    margin-left: auto;
+  }
+
+  body{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 50px 1fr 30px;
+    grid-gap: 5px;
+    height: 100vh;
+    margin: 0;
+    font-family: Helvetica;
+  }
+
+  aside{
+    background-color: #a2b4da;
+
+  }
+
+  main{
+    background-color: #f3dba8;
+  }
+
+  footer{
+    background-color: #a2cbb6;
+  }
+nav, footer{
+  grid-column: 1 / 3
+}
