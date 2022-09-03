@@ -78,17 +78,18 @@ removeRace.removeChild(removeRace.children[3])
    
   
     // Part 9
-  let blogEl = document.querySelectorAll(".blog-post");
+    let blogEl = document.querySelectorAll(".blog-post");
 
-        for (let i = 0; i < blogEl.length; i++) {
-            
-      
+    for (let i = 0; i < blogEl.length; i++) { 
 
-           blogEl[i].addEventListener('mouseover', (event) => {
-               blogEl[i].classList.toggle('red');
-              });
-        }
-  
-  
-  
-  });
+        
+        blogEl[i].addEventListener('mouseout', (event) => {
+            blogEl[i].classList.toggle("purple");
+        });
+        
+        blogEl[i].addEventListener('mouseenter', (event) => {
+            blogEl[i].classList.toggle("red");
+        });
+     }
+
+    }); 
