@@ -92,4 +92,6 @@ removeRace.removeChild(removeRace.children[3])
         });
      }
 
-    }); 
+    });
+    
+    
